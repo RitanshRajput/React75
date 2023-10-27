@@ -1,0 +1,487 @@
+
+.card{
+    width: 100vw;
+    height: 100vh;
+    background-color: $darkSlate  ;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+
+    > .partOne{
+        width: 50%;
+        height: 100vh;
+        background-color: $lightgrey;
+    }
+
+    > .partTwo {
+        width: 70%;
+        height: 100%;
+        background: transparent;
+        position: absolute;
+        margin-left: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        // background-color: green;
+
+        > .sectionOne{
+            width: 90%;
+            height: 50%;
+            // background-color: green;
+            
+            > .design{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                
+
+                > .design1 {
+                    width: 280px;
+                    height: 100%;
+                    background-color: $midgrey;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    gap: 13px 0px;
+                    padding: 0px 30px;
+                    transition: all 0.3s ease-in-out;
+
+                    > svg{
+                        font-size: 50px;
+                        color: $lightRed;
+                    }
+
+                    > h2{
+                        font-family: $golos;
+                        font-weight: 700;
+                        color: $lightWhite;
+                    }
+
+                    > p{
+                        font-family: $montserrat;
+                        font-size: 13px;
+                        color: $grey;
+                    }
+
+                    > h3{
+                        font-family: $golos;
+                        color: $lightRed;
+                        font-size: medium;
+                        font-weight: 600;
+                    }
+
+                    &:hover{
+                        background-color: $midRed;
+                        cursor: pointer;
+
+                        svg{
+                            color: $lightWhite;
+                        }
+
+                        p{
+                            color: $lightWhite ;
+                        }
+
+                        h3{
+                            color: $lightWhite;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        
+        > .sectionTwo{
+            width: 100%;
+            height: 40%;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            > .exp{
+                width: 30%;
+                height: 100%;
+                background: transparent;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                > h1{
+                    font-family: $montserrat;
+                    font-size: 60px;
+                    font-weight: 800;
+                    color: $lightRed;
+                }
+
+                > h2{
+                    font-family: $montserrat;
+                    font-size: x-large;
+                    font-weight: 800;
+                    color: $lightWhite;
+                }
+            }
+
+            > .client{
+                // background-color: palevioletred;
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+
+                > .one{
+                    width: 49%;
+                    height: 45%;
+                    background-color: $midgrey;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    > h2{
+                        font-family: $montserrat;
+                        font-weight: 800;
+                        color: $lightRed;
+                    }
+
+                    > p{
+                        font-family: $montserrat;
+                        color: $lightWhite;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// REsponsive design 
+// 320px — 480px: Mobile devices
+// 481px — 768px: iPads, Tablets
+// 769px — 1024px: Small screens, laptops
+// 1025px — 1200px: Desktops, large screens
+
+@media screen and (max-width: 1370px) {
+    .card { 
+     > .partTwo {
+        > .sectionOne{
+            > .design{
+                > .design1 {
+                    width: 250px;
+                }
+            }
+        }
+    }
+}
+}
+
+@media screen and (max-width: 1220px) {
+    .card { 
+        .partTwo {
+            width: 85%;
+            margin-left: 7.3%;
+            > .sectionOne{
+                > .design{
+                    > .design1 {
+                        width: 280px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1120px) {
+    .card { 
+        .partTwo {
+            width: 82%;
+            margin-left: 7%;
+            > .sectionOne{
+                > .design{
+                    > .design1 {
+                        width: 250px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1030px) {
+    .card { 
+        .partTwo {
+            width: 82%;
+            margin-left: 7%;
+            > .sectionOne{
+                > .design{
+                    > .design1 {
+                        width: 230px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .card { 
+        .partTwo {
+            width: 82%;
+            margin-left: 7%;
+            > .sectionOne{
+                > .design{
+                    > .design1 {
+                        width: 200px;
+                        height: 90%;
+
+                        svg{
+                            font-size: 40px;
+                        }
+
+                        h2{
+                            font-size: large;
+                        }
+
+                        p{
+                            font-size: 10px;
+                        }
+
+                        h3{
+                            font-size: small;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 895px) {
+    .card { 
+        .partTwo {
+            width: 82%;
+            margin-left: 7%;
+         
+            > .sectionTwo{
+                > .exp{
+                    width: 30%;
+                    height: 100%;
+    
+                    > h1{
+                        font-size: 50px;
+                        font-weight: 800;
+                    }
+    
+                    > h2{
+                        font-size: large;
+                        font-weight: 800;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 895px) {
+    .card { 
+        .partTwo {
+            width: 82%;
+            margin-left: 7%;
+         
+            > .sectionTwo{
+                > .exp{
+                    width: 30%;
+                    height: 100%;
+    
+                    > h1{
+                        font-size: 50px;
+                        font-weight: 800;
+                    }
+    
+                    > h2{
+                        font-size: large;
+                        font-weight: 800;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .card { 
+        .partTwo {
+            width: 95%;
+            margin-left: 2.5%;
+            > .sectionOne{
+                > .design{
+                    > .design1 {
+                        width: 190px;
+                        height: 90%;                  
+                    }
+                }
+            }
+            
+            > .sectionTwo{
+                width: 90%;
+                background-color: transparent;
+                > .exp{
+                    width: 30%;
+                    height: 100%;
+    
+                    > h1{
+                        font-size: 50px;
+                        font-weight: 800;
+                    }
+    
+                    > h2{
+                        font-size: large;
+                        font-weight: 800;
+                    }
+                }
+    
+                > .client{
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .card { 
+        .partTwo {
+            width: 95%;
+            margin-left: 2.5%;
+            > .sectionOne{
+                > .design{
+                    > .design1 {
+                        width: 165px;
+                        height: 90%;                  
+                    }
+                }
+            }
+            
+            > .sectionTwo{
+                width: 90%;
+                background-color: transparent;
+                > .exp{
+                    width: 30%;
+                    height: 100%;
+    
+                    > h1{
+                        font-size: 40px;
+                        font-weight: 800;
+                    }
+    
+                    > h2{
+                        font-size: medium;
+                        font-weight: 800;
+                    }
+                }
+    
+                > .client{
+                    width: 65%;
+
+                    > .one{
+                        width: 49%;
+                        height: 45%;
+
+                        > h2{
+                            font-weight: 600;
+                            color: $lightRed;
+                        }
+    
+                        > p{
+                            font-size: small;
+                            font-family: $montserrat;
+                            color: $lightWhite;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 590px) {
+    .card { 
+        height: 1200px ;
+
+        > .partOne{
+            width: 50%;
+            height: 100vh;
+            background-color: $lightgrey;
+            overflow-x: hidden;
+        }
+
+        .partTwo {
+            height: 1200px;
+
+            > .sectionOne{
+                > .design{
+                    flex-direction: column;
+                    > .design1 {
+                        width: 250px;
+                        height: 200px;  
+                        margin: 8px 0px;                
+                    }
+                }
+            }
+            
+            > .sectionTwo{
+                width: 90%;
+                flex-direction: column;
+                background-color: transparent;
+                > .exp{
+                    width: 70%;
+                    height: 50%;
+    
+                    > h1{
+                        font-size: 40px;
+                        font-weight: 800;
+                    }
+    
+                    > h2{
+                        font-size: medium;
+                        font-weight: 800;
+                    }
+                }
+    
+                > .client{
+                    width: 100%;
+
+                    > .one{
+                        width: 49%;
+                        height: 45%;
+
+                        > h2{
+                            font-weight: 600;
+                            color: $lightRed;
+                        }
+    
+                        > p{
+                            font-size: small;
+                            font-family: $montserrat;
+                            color: $lightWhite;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

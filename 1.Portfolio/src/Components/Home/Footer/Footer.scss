@@ -1,0 +1,134 @@
+.footer{
+    width: 100%;
+    height: 12%;
+    background-color: $lightgrey;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    >.image{
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        >img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    > .social{
+        // background-color: green;
+        width: 9rem;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        > svg{
+            font-size: 25px;
+            color: black;
+            transition: all 0.3s ease-in-out;
+
+            &:hover{
+                cursor: pointer;
+                color: $midRed;
+            }
+        }
+    }
+
+    > .created{
+        width: 11rem;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        > svg{
+            color: $midRed;
+        }
+
+        > p{
+            font-family: $montserrat;
+            font-size: small;
+            font-weight: 500;
+            color: $grey;
+        }
+    }
+}
+
+
+
+// Responsive Style 
+
+@media screen and (max-width: 600px) {
+    .footer{
+        width: 100%;
+        height: 180px;
+        background-color: $lightgrey;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    
+        >.image{
+            height: 50px;
+            width: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            >img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    
+        > .social{
+            // background-color: green;
+            width: 9rem;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+    
+            > svg{
+                font-size: 25px;
+                color: black;
+                transition: all 0.3s ease-in-out;
+    
+                &:hover{
+                    cursor: pointer;
+                    color: $midRed;
+                }
+            }
+        }
+    
+        > .created{
+            width: 11rem;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+    
+            > svg{
+                color: $midRed;
+            }
+    
+            > p{
+                font-family: $montserrat;
+                font-size: small;
+                font-weight: 500;
+                color: $grey;
+            }
+        }
+    }
+}

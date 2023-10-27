@@ -1,0 +1,185 @@
+// Nav style 
+ .nav-wrapper{
+    width: 100vw;
+    height: 9vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    z-index: 60;
+
+    // ICon style 
+    >.icon-wrapper{
+        padding-top: 2px;
+        width: 25%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        >img{
+            width: 4rem;
+            height: 100%;
+            object-fit: contain;
+            transition: filter 0.5s ease-in-out;
+
+            &:hover{
+                filter: drop-shadow(0 0 15px $lightRed);
+            }
+        }
+    }
+
+    // Option style
+    >.options-wrapper{
+        width: 28%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        >a{
+            text-decoration: none; 
+            font-family: 'Quicksand', sans-serif;
+            font-size: medium;
+            font-weight: 300;
+            color: $lightWhite;
+            cursor: pointer;
+            transition: all 0.4s ease-in-out;
+
+            &:hover{
+                color: $lightRed;
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+
+//Menu BTN 
+.menuBTN{
+    background-color: transparent;
+    width: 40px;
+    height: 30px;
+    border: none;
+    font-size: 1.4rem;
+    color: $lightWhite;     
+    display: none;
+    z-index: 150;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+     &:hover{
+        color: $lightRed;
+    }
+}
+
+// Phone Screen Menu Option 
+.navphone{
+    transition: transform .8s ease;
+    transform: translateY( 200%); 
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(205deg, $lightSlate 1%, $darkSlate 25%);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 100;
+
+    >.icon-wrapper{
+        width: 22%;
+        height: 22%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    >.options-wrapper{
+        width: 35%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        >a{
+            text-decoration: none; 
+            font-family: 'Quicksand', sans-serif;
+            font-size: larger;
+            font-weight: 300;
+            color: $lightWhite;
+            z-index: 150;
+            cursor: pointer;
+            transition: color 0.4s ease-in-out;
+
+            &:hover{
+                color: $lightRed;
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.navPhoneComes {
+    transform: translateY(0);
+}
+
+
+@media screen and (max-width: 1400px){
+    .nav-wrapper{
+        > .options-wrapper {
+            width: 30%;
+        > a{
+            font-size: small;
+        }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px){
+    .nav-wrapper{
+        > .options-wrapper {
+            width: 42%;
+        > a{
+            font-size: small;
+        }
+    }
+  }
+}
+
+@media screen and (max-width: 769px){
+    .nav-wrapper{
+        > .options-wrapper {
+            width: 50%;
+        > a{
+            font-size: 14px;
+        }
+    }
+  }
+}
+
+@media screen and (max-width: 600px){
+    .nav-wrapper{
+        > .options-wrapper {
+            width: 50%;
+        > a{
+            font-size: 12px;
+        }
+    }
+  }
+}
+
+@media screen and (max-width: 520px){
+    .nav-wrapper{
+        justify-content: space-around;
+        > .options-wrapper,
+        > a{
+            display: none;
+        }
+    }
+
+    .menuBTN{
+        display: block;
+    }
+}
