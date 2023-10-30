@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#root {
+    height: 100vh;
+    background-color: black;
+    padding: 30px 50px
+}
+
+/* sizing of map container */
+.leaflet-container{
+    height: 90vh;
+    border-radius: 15px;
+}
+
+/* zoom button style */
+.leaflet-control-zoom a {
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+.leaflet-control-zoom a:hover{
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+/* cluster style */
+.cluster-icon {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translate(-25%, -25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
