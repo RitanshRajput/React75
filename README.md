@@ -9,5 +9,5 @@
 *Project Description: The Interactive Map project demonstrates how to harness the power of React and the Leaflet library to create an interactive map. You'll learn how to integrate maps into your web applications, add markers, and provide user-friendly interactions, making it an excellent resource for those interested in building location-based applications.*
 > [Link to Interactive Map](https://react75-interactive-map-2.vercel.app/)
 ### 3. Kanban Board
-*Project Description: The Kanban Board project is built using React, Vite, and TypeScript, offering an efficient and organized way to manage tasks and projects. Learn how to create an intuitive and responsive Kanban board to enhance your project management and task-tracking skills.*
+*Project Description: The Kanban Board project is built using React, tailwind css and TypeScript, offering an efficient and organized way to manage tasks and projects. Learn how to create an intuitive and responsive Kanban board to enhance your project management and task-tracking skills.*
 > [Link to Kanban Board](https://react75-kanban-board-3.vercel.app/)
