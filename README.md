@@ -11,3 +11,7 @@
 ### 3. Kanban Board
 *Project Description: The Kanban Board project is built using React, tailwind css and TypeScript, offering an efficient and organized way to manage tasks and projects. Learn how to create an intuitive and responsive Kanban board to enhance your project management and task-tracking skills.*
 > [Link to Kanban Board](https://react75-kanban-board-3.vercel.app/)
+### 4. Speech to Recognition App
+*Project Description: The Speech to Recognition App utilizes the React Speech Recognition library to convert audio into text. Learn how to build a web application that can transcribe spoken words into written text, opening up possibilities for voice-controlled applications and accessibility features.*
+> [Link to Speech to Recognition App](https://react75-speech-to-recognition-app-4)
+
