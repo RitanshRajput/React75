@@ -15,3 +15,6 @@
 *Project Description: The Speech to Recognition App utilizes the React Speech Recognition library to convert audio into text. Learn how to build a web application that can transcribe spoken words into written text, opening up possibilities for voice-controlled applications and accessibility features.*
 > [Link to Speech to Recognition App](https://react75-speech-to-recognition-app-4.vercel.app/)
 
+### 5. Todo Intermediate App
+*Project Description: The Todo Intermediate App is a project designed to take your task management to the next level. This todo app provides features like adding tasks, editing tasks, updating task details, and deleting tasks. Learn how to create a feature-rich to-do application in React, perfect for those looking to enhance their React skills.*
+> [Link to Todo_intermediate_App](https://react75-todo-app-5.vercel.app/)
