@@ -18,3 +18,7 @@
 ### 5. Todo Intermediate App
 *Project Description: The Todo Intermediate App is a project designed to take your task management to the next level. This todo app provides features like adding tasks, editing tasks, updating task details, and deleting tasks. Learn how to create a feature-rich to-do application in React, perfect for those looking to enhance their React skills.*
 > [Link to Todo_intermediate_App](https://react75-todo-app-5.vercel.app/)
+
+### 6. React Parallax Effect
+*Project Description: The React Parallax Effect project showcases how to create stunning parallax scrolling effects using React. Explore the world of 3D-like scrolling and create immersive user experiences that add depth and interactivity to your web applications.*
+> [Link to React-Parallax-Effect](https://react75-react-tilting-ffect-6-8o6y1zuwe-ritanshrajput.vercel.app/)
