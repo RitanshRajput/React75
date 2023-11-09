@@ -22,3 +22,7 @@
 ### 6. React Parallax Effect
 *Project Description: The React Parallax Effect project showcases how to create stunning parallax scrolling effects using React. Explore the world of 3D-like scrolling and create immersive user experiences that add depth and interactivity to your web applications.*
 > [Link to React-Parallax-Effect](https://react75-react-tilting-ffect-6-8o6y1zuwe-ritanshrajput.vercel.app/)
+
+### 7. Login Page with React and Module CSS
+*Project Description: The Login Page project is built using React and Module CSS, and it demonstrates the functionality of an HTML form in React. Users can enter their information, and the application displays an alert on the page to showcase the interaction with user input and form handling*
+> [Link to Login Page](https://react75-login-page-7.vercel.app/)
