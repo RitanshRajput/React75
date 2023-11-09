@@ -1,0 +1,153 @@
+
+.contact{
+    width: 90%;
+    height: calc(100vh - 140px);
+    background: transparent;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+}
+
+.contact .image{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.contact .image::before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height:100%;
+    background-color: aliceblue;
+    opacity: 10%;
+    z-index: 100;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.contact .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 100;
+}
+
+.contact .form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 200;
+    /* background-color: red; */
+}
+
+.contact .form::before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height:100%;
+    background-color: aliceblue;
+    opacity: 10%;
+    z-index: 10;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.contact .form .btn_container{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    z-index: 400;
+    /* background-color: green; */
+}
+
+
+.contact .form .btn_container .btns{
+    width: 60%;
+    height: 40px;
+    /* background-color:red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.contact .form .btn_container .btns button{
+    border: none;
+    width: 45%;
+    height: 90%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact .form .btn_container .btns button:hover{
+    transform: scale(1.1);
+}
+
+.contact .form .btn_container .btns button svg {
+    font-size: 20px;
+    margin: 8px;
+}
+
+ form .form_container{ 
+    /* background-color: green; */
+    width: 500px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px ;
+    padding-top: 15px;
+    position: absolute;
+    z-index: 3000;
+}
+
+.form_container label{
+    width: 50px;
+    background: transparent;
+    font-weight: 500;
+    color: aliceblue;
+    margin-bottom: 3px;
+}
+
+.form_container input{
+    height: 40px;
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border-style: none;
+}
+
+
+.form_container textarea{
+    height: 80px;
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border-style: none;
+}
+
+.form_container button{
+    border: none;
+    width: 150px;
+    height: 60px ;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form_container button:hover{
+    transform: scale(1.1);
+}
