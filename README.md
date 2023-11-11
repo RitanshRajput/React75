@@ -29,4 +29,4 @@
 
 ### 8. Dice Roll Game
 *Project Description: The Dice Roll Game is a luck-testing game. Select a number and roll the dice. If the selected number and the dice number match, you gain 2 points. If they differ, 1 point will be deducted. Test your luck and see how many points you can score in this interactive and entertaining dice game.*
-> [ link to Dice Roll Game](https://react75-dice-roll-game-8.vercel.app/)
+> [ link to Dice Roll Game](https://react75-dice-roll-game-8-uh6hendty-ritanshrajput.vercel.app/)
