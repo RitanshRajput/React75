@@ -26,3 +26,7 @@
 ### 7. Login Page with React and Module CSS
 *Project Description: The Login Page project is built using React and Module CSS, and it demonstrates the functionality of an HTML form in React. Users can enter their information, and the application displays an alert on the page to showcase the interaction with user input and form handling*
 > [Link to Login Page](https://react75-login-page-7.vercel.app/)
+
+### 8. Dice Roll Game
+*Project Description: The Dice Roll Game is a luck-testing game. Select a number and roll the dice. If the selected number and the dice number match, you gain 2 points. If they differ, 1 point will be deducted. Test your luck and see how many points you can score in this interactive and entertaining dice game.*
+> [ link to Dice Roll Game](https://react75-dice-roll-game-8.vercel.app/)
