@@ -30,3 +30,7 @@
 ### 8. Dice Roll Game
 *Project Description: The Dice Roll Game is a luck-testing game. Select a number and roll the dice. If the selected number and the dice number match, you gain 2 points. If they differ, 1 point will be deducted. Test your luck and see how many points you can score in this interactive and entertaining dice game.*
 > [ link to Dice Roll Game](https://react75-dice-roll-game-8-uh6hendty-ritanshrajput.vercel.app/)
+
+### 9. FoodHub
+*Project Description: FoodHub is a delightful food page where users can explore a variety of food options. Feeling indecisive about what to have for breakfast, lunch, or dinner? Click to get a suggestion! The app also features a search option for users to find their favorite foods easily. Discover and enjoy a world of culinary delights in FoodHub.*
+
