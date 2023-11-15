@@ -10,7 +10,7 @@ const firebaseConfig = {
   authDomain: "vite-contact-app-f128f.firebaseapp.com",
   projectId: "vite-contact-app-f128f",
   storageBucket: "vite-contact-app-f128f.appspot.com",
-  messagingSenderId: "520575728560",
+  messagingSenderId: "",
   appId: "1:520575728560:web:66894622417e0c9c127475"
 };
 
