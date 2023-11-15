@@ -34,3 +34,6 @@
 ### 9. FoodHub
 *Project Description: FoodHub is a delightful food page where users can explore a variety of food options. Feeling indecisive about what to have for breakfast, lunch, or dinner? Click to get a suggestion! The app also features a search option for users to find their favorite foods easily. Discover and enjoy a world of culinary delights in FoodHub.*
 
+### 10. React Firebase Contact App
+*Project Description: The React Firebase Contact App is a feature-packed contact management application. Utilizing the power of React, Tailwind CSS, and Firebase, this app allows users to seamlessly add, update, and delete contacts. The search option enables users to find specific contacts quickly. Explore the world of real-time data management with this engaging and practical project.*
+> [Link to Firebase Contact app](https://react75-firebase-contact-app-10.vercel.app/)
