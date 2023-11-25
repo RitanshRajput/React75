@@ -44,3 +44,8 @@
 ### 11. Image Dictionary
 *Project Description: The Image Dictionary project showcases the use of Axios to fetch data from an API and dynamically display images. Learn how to integrate Axios to make API requests, retrieve image data, and render dynamic content in your React application. This project provides a practical example of working with external APIs to enrich your applications with dynamic and real-time content.*
 > [Link to Image Dictionary](https://react75-image-dictionary-11-j48k3wzty-ritanshrajput.vercel.app)
+
+### 12. Veggie App
+*Project Description: Veggie App is a static vegetable and fruit delivery application built using React and Bootstrap. Explore the world of fresh produce through an intuitive user interface. While it's static, it provides a glimpse into the potential of dynamic content for future enhancements.*
+> [Link to Veggie App](https://react75-veggie-app-12-topd79wns-ritanshrajput.vercel.app)
+
