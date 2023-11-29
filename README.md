@@ -52,3 +52,7 @@
 ### 13. Show Weather
 *Project Description: "Show Weather" is a web page built with React, showcasing real-time weather information. Utilizing Axios, the app fetches data from the OpenWeatherMap API to provide accurate and up-to-date weather details. Explore the integration of React components to create a dynamic and responsive weather display.*
 > [Link to Show Weather](https://react75-show-weather-13.vercel.app/)
+
+### 14. ThreeJs Portfolio Webpage
+*Project Description: "ThreeJs Portfolio Webpage" is a captivating portfolio built with React, demonstrating the functionality of Three.js. Explore the world of 3D animations and objects, showcasing the seamless integration of Three.js into React. This project adds a visually immersive experience to portfolio web design.*
+> [Link to Three Js portfolio webpage](https://react75-threejs-portfolio-14-5lboct8lj-ritanshrajput.vercel.app/)
