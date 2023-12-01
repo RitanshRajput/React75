@@ -56,3 +56,7 @@
 ### 14. ThreeJs Portfolio Webpage
 *Project Description: "ThreeJs Portfolio Webpage" is a captivating portfolio built with React, demonstrating the functionality of Three.js. Explore the world of 3D animations and objects, showcasing the seamless integration of Three.js into React. This project adds a visually immersive experience to portfolio web design.*
 > [Link to Three Js portfolio webpage](https://react75-threejs-portfolio-14-5lboct8lj-ritanshrajput.vercel.app/)
+
+### 15. Millionaire Quiz App
+*Project Description: "Millionaire Quiz App" is a thrilling quiz game developed in React, inspired by the popular "Kaun Banega Crorepati." Dive into the world of game development while exploring the functionality of React hooks, including useEffect, setTimeout, useRef, and useState. Test your knowledge in this entertaining quiz app and enhance your understanding of React hooks.*
+> [Link to Millionaire Quiz App](https://react75-millionaire-quiz-app-15-ixbv95uue-ritanshrajput.vercel.app/)
