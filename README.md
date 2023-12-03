@@ -60,3 +60,8 @@
 ### 15. Millionaire Quiz App
 *Project Description: "Millionaire Quiz App" is a thrilling quiz game developed in React, inspired by the popular "Kaun Banega Crorepati." Dive into the world of game development while exploring the functionality of React hooks, including useEffect, setTimeout, useRef, and useState. Test your knowledge in this entertaining quiz app and enhance your understanding of React hooks.*
 > [Link to Millionaire Quiz App](https://react75-millionaire-quiz-app-15-ixbv95uue-ritanshrajput.vercel.app/)
+
+### 16. ChakraUI Dashboard
+*Project Description: "ChakraUI Dashboard" is a responsive crypto dashboard created using Chakra UI, a simple, modular, and accessible component library designed for building React applications. Explore the power of Chakra UI to effortlessly implement styling and achieve responsiveness in web design. Enhance your skills in UI development and React framework integration.*
+> [Link to ChakraUI Dashboard](https://react75-crypto-dashboard-16-14i8x6el3-ritanshrajput.vercel.app/)
+
