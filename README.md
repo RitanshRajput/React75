@@ -65,3 +65,7 @@
 *Project Description: "ChakraUI Dashboard" is a responsive crypto dashboard created using Chakra UI, a simple, modular, and accessible component library designed for building React applications. Explore the power of Chakra UI to effortlessly implement styling and achieve responsiveness in web design. Enhance your skills in UI development and React framework integration.*
 > [Link to ChakraUI Dashboard](https://react75-crypto-dashboard-16-14i8x6el3-ritanshrajput.vercel.app/)
 
+### 17. MUI Social App
+*Project Description: "MUI Social App" is a stylish social media page created using Material-UI (MUI), a powerful styling tool for React. Dive into the world of modern UI design by exploring the capabilities of MUI. This project showcases how to leverage MUI to effortlessly build an attractive and responsive social media page.*
+> [Link to MUI Social App](https://react75-mui-social-app-17-h9af9pkqm-ritanshrajput.vercel.app/)
+
