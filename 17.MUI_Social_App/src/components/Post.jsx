@@ -11,6 +11,7 @@ import {
   Typography,
 } from "@mui/material";
 const Post = () => {
+
   return (
     <Card sx={{ margin: 5 }}>
       <CardHeader
@@ -30,7 +31,7 @@ const Post = () => {
       <CardMedia
         component="img"
         height="20%"
-        image="https://images.pexels.com/photos/4534200/pexels-photo-4534200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        image= "https://images.pexels.com/photos/16465979/pexels-photo-16465979/free-photo-of-woman-standing-in-a-rapeseed-field.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt="Paella dish"
       />
       <CardContent>

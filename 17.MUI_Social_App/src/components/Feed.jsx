@@ -4,7 +4,7 @@ import Post from "./Post";
 
 const Feed = () => {
   const [loading, setLoading] = useState(true);
-
+ 
   setTimeout(() => {
     setLoading(false);
   }, [3000]);
@@ -20,12 +20,12 @@ const Feed = () => {
         </Stack>
       ) : (
         <>
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
-          <Post />
+          <Post  />
+          <Post  />
+          <Post  />
+          <Post  />
+          <Post  />
+          <Post  />
         </>
       )}
     </Box>
